@@ -13,4 +13,13 @@
   - design the chessboard representation
 
   - for future releases - expand the program core with GUI with different
-    languages and packages*/
+    languages and packages
+
+  Further explanations:
+  - modules (functions):
+    * chess engine
+      @ submodules for every piece, pawns, promotion, castling, check, mate, stalemate
+    * position display (console GUI)
+    * random move for CPU (level 0)
+    * display move history on the side (algebraic notation)
+  */
