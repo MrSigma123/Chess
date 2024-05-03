@@ -9,8 +9,9 @@
   - pawn promotion
   - en passant
   - consider move highlighting
+  - write down algebraic inscription outside the board
 
-  - design the chessboard representation
+  - DONE: design the chessboard representation
 
   - for future releases - expand the program core with GUI with different
     languages and packages
@@ -22,4 +23,5 @@
     * position display (console GUI)
     * random move for CPU (level 0)
     * display move history on the side (algebraic notation)
+    * choose color or choose randomly
   */
