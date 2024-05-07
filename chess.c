@@ -24,4 +24,9 @@
     * random move for CPU (level 0)
     * display move history on the side (algebraic notation)
     * choose color or choose randomly
+  
+  Things to be designed:
+  - move input
+  - messages about improper move (warning or penalty)
+
   */
