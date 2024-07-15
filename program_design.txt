@@ -1,0 +1,34 @@
+*** PROGRAM DESIGN ***
+
+Organizing the structure of files and functions.
+
+Must have:
+- Interface
+- exporting games into separate files (database)
+- displaying the chessboard along game status on the side
+- implement all chess rules
+
+Basic data type: char array
+
+Representation of pieces and pawns:
+p - pawn
+R - rook
+N - knight
+B - bishop
+K - King
+Q - queen
+
+To add color functionality we might use separate array and
+store there the pieces and pawns colors.
+We can perform exactly the same elements swaps and this way
+change the color of terminal characters, like below:
+
+I.E. display white pawn (print as red):
+check the position in the color array
+set the particular color (red, blue or none[don't change])
+print the piece array character
+change the terminal color to default (white), which
+should be set at the beginning of the program
+
+
+
