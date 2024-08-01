@@ -6,8 +6,21 @@ MOVES (functions):
 - Knight
 - Pawn (two functions because of different pawn move directions for white and black)
   [and different promotions rank and special double initial move ranks]
+  [if the pawn moves from the starting square recognize it by checking the starting row
+  and allow for double forward move]
 
-move input algorithm:
+MOVE INPUT ALGORITHM:
 1. piece letter (i.e. N)
 2. starting coordinate (i.e. b2)
 3. finishing coordinate (i.e. c3)
+
+CASTLING:
+- check if the king was ever moved
+- check if any of the quares in castling range quares which king crosses are occupied by opponent
+- check if the rook which take part in castling was ever moved
+- check if the king is in check
+- check if there are no pieces between the rook and the king which take part in the castling
+
+PROMOTION:
+- check if the piece reached the rank on the opposite side of the board
+  [it's 8th rank for the white and 1st rank for the black[]
