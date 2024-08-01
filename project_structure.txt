@@ -1,0 +1,13 @@
+MOVES (functions):
+- King
+- Queen
+- Rook
+- Bishop
+- Knight
+- Pawn (two functions because of different pawn move directions for white and black)
+  [and different promotions rank and special double initial move ranks]
+
+move input algorithm:
+1. piece letter (i.e. N)
+2. starting coordinate (i.e. b2)
+3. finishing coordinate (i.e. c3)
