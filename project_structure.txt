@@ -24,3 +24,9 @@ CASTLING:
 PROMOTION:
 - check if the piece reached the rank on the opposite side of the board
   [it's 8th rank for the white and 1st rank for the black[]
+
+PROGRAM MODES:
+- two player mode
+- "silly" CPU mode (with color selection or random)
+
+
