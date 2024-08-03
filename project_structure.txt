@@ -16,17 +16,18 @@ MOVE INPUT ALGORITHM:
 
 CASTLING:
 - check if the king was ever moved
-- check if any of the quares in castling range quares which king crosses are occupied by opponent
+- check if any of the squares in castling range squares which king crosses are occupied by opponent
 - check if the rook which take part in castling was ever moved
 - check if the king is in check
 - check if there are no pieces between the rook and the king which take part in the castling
 
 PROMOTION:
 - check if the piece reached the rank on the opposite side of the board
-  [it's 8th rank for the white and 1st rank for the black[]
+  [its 8th rank for the white and 1st rank for the black[]
 
 PROGRAM MODES:
 - two player mode
 - "silly" CPU mode (with color selection or random)
 
-
+CHECK: -> pieces range
+- add the flags which will mark the pieces range and the flag when the king is checked
