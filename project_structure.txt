@@ -31,3 +31,9 @@ PROGRAM MODES:
 
 CHECK: -> pieces range
 - add the flags which will mark the pieces range and the flag when the king is checked
+- mark checked king square with yellow color
+
+MATE: -> combination of check and occupied surrounding squares
+- add the flag for mate
+- mark the mated king square with red color
+
