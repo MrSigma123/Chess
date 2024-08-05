@@ -37,3 +37,7 @@ MATE: -> combination of check and occupied surrounding squares
 - add the flag for mate
 - mark the mated king square with red color
 
+  pieces range:
+  - it has to be marked on every field with the array indexes
+  - every piece range and blocked range by the other piece has to be marked in array
+  
