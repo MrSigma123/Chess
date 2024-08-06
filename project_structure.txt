@@ -40,4 +40,6 @@ MATE: -> combination of check and occupied surrounding squares
   pieces range:
   - it has to be marked on every field with the array indexes
   - every piece range and blocked range by the other piece has to be marked in array
-  
+ 
+ possible moves:
+ - consider adding functionality of displaying possible moves
