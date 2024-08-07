@@ -43,3 +43,12 @@ MATE: -> combination of check and occupied surrounding squares
  
  possible moves:
  - consider adding functionality of displaying possible moves
+
+ game recording:
+ - saving the game into the file, to display the game it will have to be displayed
+   on the right side of the board or below, it'll be more difficult to display the
+   moves on the right, but it would be much more readable
+
+ display annotated moves:
+ - along saving the game into the file save the move and display it next to the board,
+   the move will be saved as a string
