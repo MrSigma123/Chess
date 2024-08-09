@@ -56,3 +56,7 @@ MATE: -> combination of check and occupied surrounding squares
 PIECES RANGE: 
 - we can use pointers, which will refer to te certain piece, which takes that square
   EXAMPLE: let's take a bishop, which occupies b4 square while standing on c3
+
+CHECKMATE:
+- after getting checkmate or giving checkmate the game should be stopped and exported into the file
+- the moves input has to be stopped as well
