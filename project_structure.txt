@@ -60,3 +60,6 @@ PIECES RANGE:
 CHECKMATE:
 - after getting checkmate or giving checkmate the game should be stopped and exported into the file
 - the moves input has to be stopped as well
+
+EXPORTING GAMES:
+- save all finished games into the file
