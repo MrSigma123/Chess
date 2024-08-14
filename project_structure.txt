@@ -10,9 +10,13 @@ MOVES (functions):
   and allow for double forward move]
 
 MOVE INPUT ALGORITHM:
-1. piece letter (i.e. N)
-2. starting coordinate (i.e. b2)
-3. finishing coordinate (i.e. c3)
+1. piece letter (i.e. N) - this will allow to move the piece to desired square according to the piece
+2. starting coordinate (i.e. b2) - to mark beginning square
+3. finishing coordinate (i.e. c3) - to mark the landing square
+
+  notated moves example:
+  1.Nb1c3   pe7e5
+  2.pe2e4   Bf8b5
 
 CASTLING:
 - check if the king was ever moved
@@ -63,3 +67,5 @@ CHECKMATE:
 
 EXPORTING GAMES:
 - save all finished games into the file
+
+
