@@ -68,4 +68,5 @@ CHECKMATE:
 EXPORTING GAMES:
 - save all finished games into the file
 
-
+QUIT OR ABORT THE GAME:
+- instead of entering the move (piece or pawn character) enter Q to quit
