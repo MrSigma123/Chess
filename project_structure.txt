@@ -1,3 +1,5 @@
+*** FUNCTIONALITIES ***
+
 MOVES (functions):
 - King
 - Queen
@@ -70,3 +72,10 @@ EXPORTING GAMES:
 
 QUIT OR ABORT THE GAME:
 - instead of entering the move (piece or pawn character) enter Q to quit
+
+PROGRAM TREE: (modular project build)
+
+// sketch
+menu();
+  modules();
+    submodules();
