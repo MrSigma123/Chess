@@ -81,3 +81,8 @@ menu();
     submodules();
 
 PROJECT DEADLINE: END OF AUGUST
+
+After completing the project in C rewrite the program
+using C++, which supports Unicode characters. Then after
+completing this rewrite rewrite the program again into Python,
+which supprots GUI libraries.
